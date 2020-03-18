@@ -1,0 +1,16 @@
+
+1. 安装 twisted
+
+下载  whl 文件 https://www.lfd.uci.edu/~gohlke/pythonlibs/
+pip install XXX.whl
+
+2. 安装 pywin32
+
+下载 whl 文件 https://www.lfd.uci.edu/~gohlke/pythonlibs/
+pip install XXX.whl
+
+3. 安装 pyopenssl、lxml、scrapy
+
+pip install pyopenssl
+pip install lxml
+pip install scrapy
