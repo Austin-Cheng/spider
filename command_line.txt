@@ -1,0 +1,15 @@
+
+scrapy 官方网站  https://scrapy.org/
+
+
+1. 创建一个 Scrapy 项目
+
+scrapy startproject ProjectName
+
+2. 运行一个 Scrapy  爬虫
+
+scrapy crawl SpiderName
+
+屏蔽屏幕输出的内容
+
+scrapy crawl SpiderName -s LOG_FILE=FileName.log
