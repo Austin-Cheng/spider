@@ -13,3 +13,9 @@ scrapy crawl SpiderName
 屏蔽屏幕输出的内容
 
 scrapy crawl SpiderName -s LOG_FILE=FileName.log
+
+3. 在 pycharm 中运行、调试爬虫
+
+根目录下新建 run.py，输入以下内容
+from scrapy import cmdline
+cmdline.execute("scrapy crawl SpiderName".split())
